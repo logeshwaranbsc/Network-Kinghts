@@ -43,3 +43,59 @@ a {
   font-size: 13px;
 }
 /* KK */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://ecs-static.teamtreehouse.com/assets/views/marketing/shared/community-blue-gradient-99a5eecca2ac084f15533a27c54102a1a8799ed5f8ba1d96fe1114f72724f16f.webp);
+    max-width: 65%;
+    min-height: 200px;
+    padding: 20px 20px;
+    background-size: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+.img-ban {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.content1 {
+    display: flex;
+    padding: 20px;
+}
+
+.bnt {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #F6D064;
+    width: 202px;
+    height: 39px;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    font-family: inherit;
+    font-weight:inherit;
+}
+
+.hf {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gf {
+    font-weight: 500;
+}
