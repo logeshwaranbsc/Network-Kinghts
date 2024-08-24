@@ -18,6 +18,8 @@ body{
 .navslide2{
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    height: 70px;
 }
 .tree-logo{
     display: flex;
@@ -45,6 +47,7 @@ body{
 
 .nav-dropdown {
     display: none;
+    opacity: 0;
 }
 /* .nav-dropdown-plans {
     display: inline;
@@ -72,6 +75,7 @@ body{
         padding-left: 20px;
         border: 2px solid lightgray;
         transition-delay:1s;
+        opacity: 1;
 }
 .list1:hover .nav-dropdown a{
     text-decoration: none;
