@@ -1,3 +1,248 @@
+*{
+    margin:0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navslide1{
+    background-color: #1585f8;
+    color: white;
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.navslide2{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 70px;
+}
+.tree-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.tree-logo img{
+    height: 30px;
+    width: 30px;
+}
+.tree-logo a{
+    font-family:"Gotham Book", Helvetica, Arial, sans-serif ;
+    color:#3b3b3b;
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+
+}
+.unordered ul{
+    list-style-type: none;
+    display: flex;
+
+}
+
+
+
+.nav-dropdown {
+    display: none;
+    opacity: 0;
+}
+/* .nav-dropdown-plans {
+    display: inline;
+} */
+
+
+.list1, .list2, .list3, .list4, .list5 {
+    position: relative;
+    margin: 20px 0px;
+    text-decoration: none;
+    
+}
+.list1:hover .nav-dropdown {
+        display:flex;
+        flex-direction: column;
+        align-items: start;
+        position: absolute;
+        background-color: #fff;
+        border: 1px;
+        top: 30px;
+        left: 20px;
+        cursor: pointer;
+        width: 130px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border: 2px solid lightgray;
+        transition-delay:1s;
+        opacity: 1;
+}
+.list1:hover .nav-dropdown a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color:black;
+
+}
+.list2:hover .nav-dropdown {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background-color: #fff;
+    border: 1px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    width: 110px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgray;
+    transition-delay:1s;
+}
+.list2:hover .nav-dropdown a{
+text-decoration: none;
+margin-bottom: 20px;
+color:black;
+
+}.list3:hover .nav-dropdown {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background-color: #fff;
+    border: 1px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    width: 230px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgray;
+    transition-delay:1s;
+}
+.list3:hover .nav-dropdown a{
+text-decoration: none;
+margin-bottom: 20px;
+color:black;
+
+}.list4:hover .nav-dropdown {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background-color: #fff;
+    border: 1px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    width: 140px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgray;
+    transition-delay:1s;
+}
+.list4:hover .nav-dropdown a{
+text-decoration: none;
+margin-bottom: 20px;
+color:black;
+
+}.list5:hover .nav-dropdown {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background-color: #fff;
+    border: 1px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    width: 180px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgray;
+    transition-delay:1s;
+}
+.list5:hover .nav-dropdown a{
+text-decoration: none;
+margin-bottom: 20px;
+color:black;
+
+}.list6:hover .nav-dropdown {
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    background-color: #fff;
+    border: 1px;
+    top: 30px;
+    left: 20px;
+    cursor: pointer;
+    width: 130px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 2px solid lightgray;
+    transition-delay:1s;
+}
+.list6:hover .nav-dropdown a{
+text-decoration: none;
+margin-bottom: 20px;
+color:black;
+}
+.slide{
+    display: flex;
+    align-items: center;
+ }
+ .tree-logo a, img{
+    margin: 10px;
+
+ }
+.unordered{
+    margin: 20px 20px;
+}
+.btn-menu{
+    margin: 20px 20px;
+    text-decoration: none;
+    color:#576366;
+    background-color: #fff;
+}
+
+.sign{
+    width: 300px;
+    display:flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.sign button{
+    margin-left: 35px;
+
+}
+#b1{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+#b2{
+    background-color: #008298;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    height: 30px;
+    width:80px;
+}
+#b1:hover{
+    cursor: pointer;
+    color:#326e99;
+}
+#b2:hover{
+    cursor: pointer;
+    background-color:#387bab;
+    color:white;
+
+}
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
