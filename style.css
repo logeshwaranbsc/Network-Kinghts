@@ -239,3 +239,166 @@ color:black;
     color:white;
 
 }
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  /* width: 100vw; */
+  background-color: #edeff0;
+  overflow-x: hidden;
+}
+
+.pd-20 {
+  padding: 20px;
+}
+
+.site-contant {
+  max-width: 1260px;
+}
+
+.site-contant {
+  margin: 0 auto;
+}
+
+/* Logi */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://ecs-static.teamtreehouse.com/assets/views/marketing/shared/community-blue-gradient-99a5eecca2ac084f15533a27c54102a1a8799ed5f8ba1d96fe1114f72724f16f.webp);
+  min-height: 200px;
+  padding: 20px 20px;
+  background-size: 100%;
+  margin: 0 auto;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+}
+
+.img-ban {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.content1 {
+  display: flex;
+  padding: 20px;
+}
+
+.bnt {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  background-color: #f6d064;
+  width: 202px;
+  height: 39px;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 3px;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.hf {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.gf {
+  font-weight: 500;
+}
+
+/* Logi */
+
+/* KK */
+
+.qa-section {
+  width: 100%;
+  background-color: #fff;
+}
+
+.qa-container {
+  padding: 30px;
+}
+
+.q-section {
+  max-width: 1140px;
+  color: #576366;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.profile-img img {
+  aspect-ratio: 1;
+  width: 36px;
+  /* border: 0px solid red; */
+  border-radius: 50%;
+}
+
+/* .profile-img:hover img {
+  border: 4px solid red;
+} */
+
+.qa-title-container {
+  align-items: center;
+  height: 70px;
+  padding-left: 30px;
+  background: #f9fafa;
+  border-radius: 4px 4px 0 0;
+  border-top: 4px solid #3659a2;
+  border-bottom: 1px solid #eceded;
+}
+
+.qa-title .qa-link {
+  color: #29447c;
+  font-size: 13px;
+}
+.q {
+  padding-left: 70px;
+  border-bottom: 1px solid #eceded;
+}
+
+.q-title {
+  color: #384047;
+}
+
+.q-title h1 {
+  margin-bottom: 24px;
+}
+.q-details p {
+  margin-bottom: 15px;
+}
+
+.q-command-card {
+  padding: 20px 0;
+}
+
+/* KK */
