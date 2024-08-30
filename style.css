@@ -335,7 +335,15 @@ body {
 
 .gf {
   font-weight: 500;
+  margin-bottom: 15px;
 }
+.des p{
+    margin-bottom: 30px;
+}
+.des h2{
+    margin-bottom: 10px;
+}
+.
 
 /* Logi */
 
