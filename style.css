@@ -47,7 +47,6 @@ body{
 
 .nav-dropdown {
     display: none;
-    opacity: 0;
 }
 /* .nav-dropdown-plans {
     display: inline;
@@ -74,8 +73,6 @@ body{
         padding-top: 20px;
         padding-left: 20px;
         border: 2px solid lightgray;
-        transition-delay:1s;
-        opacity: 1;
 }
 .list1:hover .nav-dropdown a{
     text-decoration: none;
@@ -295,7 +292,7 @@ body {
   min-height: 200px;
   padding: 20px 20px;
   background-size: 100%;
-  margin: 30px auto;
+  margin: 0 auto;
   border-radius: 4px;
   color: white;
   font-size: 14px;
